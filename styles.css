@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #34495E;
+    overflow: hidden;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #1ABC9C;
+    color: black;
+}
+
+/* Main Content Section */
+.container {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 28px;
+    color: #2C3E50;
+    border-bottom: 2px solid #1ABC9C;
+    padding-bottom: 10px;
+}
+
+/* About Section */
+#about {
+    background-color: #ECF0F1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#about p {
+    line-height: 1.6;
+}
+
+/* Animal Listing Section */
+#animals {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.animal-card {
+    background-color: #fff;
+    width: 30%;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.animal-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.animal-card h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #1ABC9C;
+}
+
+.animal-card p {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    nav a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .animal-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    .animal-card {
+        width: 100%;
+    }
+}
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fd893c;
+}
+header {
+    background-color: #f8f7c9;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+nav {
+    background-color: #fc7637;
+    overflow: hidden;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background-color: #c90f0f;
+    color: rgb(214, 38, 38);
+}
+.container {
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #7a3c3c;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
